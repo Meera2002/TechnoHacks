@@ -1,0 +1,38 @@
+.btn-color{
+    color: blueviolet;
+}
+.main{
+    height: 100vh;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ffffff;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: rgb(0, 0, 0);
+    transform: translateY(-5px);
+}
+.btn1{
+    display: block;
+    text-decoration: none;
+    border: 1px solid #ff004f;
+    color: #000000;
+    margin: 50px auto;
+    width: fit-content;
+    border-radius: 50px;
+    padding: 14px 54px;
+    /*--font-family: 'Libre Baskerville', serif;*/
+    transition: background 0.5s;
+
+}
+.btn1:hover{
+    background:  #ff004f;
+   
+}

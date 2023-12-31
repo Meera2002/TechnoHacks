@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="./style.css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/04ebe5a5b9.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/Add a heading.png" class="logo" alt="meera-logo">
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Skills</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark fa-fade" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I am <span>Meera</span> <br>
+                    Kadam from Pune,<br>Maharashtra.</h1>
+            </div>
+        </div>
+    </div>
+    <!----------------------------ABOUT------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/m1.png" alt="Meera profile" class="Meera-profile">
+                </div>
+                <div class="about-col-2">
+                    <h1 >About Me</h1>
+                    <p class="About-Me"><h3>Hi, I'm web developer and UI designer
+
+                        🎨 As a UI designer, I bring a creative edge to crafting user-centric interfaces, ensuring visually appealing and intuitive experiences.
+                        
+                        💡 With a passion for innovation, I stay updated with the latest trends, delivering polished, responsive, and modern digital solutions.
+                        
+                        🚀 Let's collaborate to elevate your online presence and create captivating web experiences that stand out from the crowd.
+                        
+                        </h3> </p>
+                    <div class="sub-aboutMe">
+                        <p class="subAbout-links active-link" onclick="opentab('education')">Education</p><br>
+                       <!----<p class="subAbout-links" onclick="opentab('skills')">Skills<br></p>-->
+                        <p class="subAbout-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                    <div class="sub-content sub-contentEdu" id="education">
+                        <p ><span>Bachelor of Engineering (B.E), Computer Science & Engineering</span></p><br>
+                            <p class="sub-para"></p>NBN Sinhgad School Of Engineering<br>
+                            2022 - 2025</p><br><br>
+ 
+                        <p><span>Diploma, Computer Engineering</span></p><br>
+                           <p class="sub-para" >Government Polytechnic Pune<br>
+                            2019 - 2022<br>
+                            CGPA: 9.36/10 (89%)</p><br><br>
+ 
+                        <p><span>Secondary (X)</span></p><br>
+                             <p class="sub-para">SSC board<br>
+                            Year of completion: 2019<br>
+                         Percentage: 92.00%</p>
+                    </div>
+                    <!--<div class="sub-content sub-contentSkills" id="skills">
+                        <ul>
+                            <li>Front End Web Devlopment using <span>HTML,CSS,Bootstrap</span></li>
+                            <li>Prgraming Skills are <span>C,C++,Data Structure and Algorithms,python,Java</span></li>
+                            <li>Backend : <span>postgreSQL</span></li>
+                        </ul>
+
+                    </div>-->
+                    <div class="sub-content sub-contentEx" id="experience">
+                            <p><span>Currently intern at codesoft.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    !
+    <!----------------------------Skills----------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Skills</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-brands fa-app-store fa-shake"></i>
+                    <h2>UI Design</h2>
+                    <p>
+                        🎨 Skilled in Figma, I design intuitive UIs, harmonizing aesthetics and functionality.
+                        🖌️ Leveraging its tools, I create captivating digital experiences tailored to user needs.
+                        💡 Proficiency in Figma allows me to craft visually appealing and user-friendly interfaces seamlessly.
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple fa-bounce"></i>
+                    <h2>Web development </h2>
+                    <p>
+                    💻 I leverage HTML, Bootstrap, and CSS to architect professional-grade websites, marrying aesthetics with seamless functionality.
+                    🌐 With expertise in these tools, I create visually compelling and user-centric web experiences tailored to your needs.
+                   
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code fa-flip"></i>
+                    <h2>C and C++/Java</h2>
+                    <p>
+                        🏏 I have foundational experience in C++ and
+                        💻 Using my basic knowledge in C and C++, I developed a cricket game, demonstrating my passion for programming and game development.
+                        🌟 While I'm at an introductory stage with C and C++, my cricket game project reflects my dedication to learning and applying these languages creatively.
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------------------Portfolio----------------------->
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title"><h1>My Work</h1> </div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./images/work-1.png" >
+                    <div class="layer">
+                        <h2>'Apana-Makan REAL ESTATE' Website</h2>
+                        <p>This application help the user to purchase the house as 
+                            per the user requirements.User should able to search 
+                            the properties according to his Budget and need</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-2.png" >
+                    <div class="layer">
+                        <h2>Snake Game</h2>
+                        <p>This application help the user to purchase the house as 
+                            per the user requirements.User should able to search 
+                            the properties according to his Budget and need</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./images/work-3.png" >
+                    <div class="layer">
+                        <h2>Real Time Vehical Tracking System</h2>
+                        <p>This application help the user to purchase the house as 
+                            per the user requirements.User should able to search 
+                            the properties according to his Budget and need</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square fa-beat-fade"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div >
+                <a href="#" class="btn">See more</a>
+            </div>
+        </div>
+    </div>
+    <!--* ---------------------------------CONTACT------------------------*/-->
+   <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>meerapk2002@gmail.com</p>
+                <p><i class="fa-solid fa-phone-flip fa-shake"></i>+91 7058460275</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://www.instagram.com/meera_k.2002/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/meera-kadam-b2b222235/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <div><a href="./images/MeeraKadam_InternshalaResume (1).pdf"  class="btn btn2">Download Resume</a></div>
+                
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>2023 Meera Portfolio<i class="fa-solid fa-heart fa-beat"></i>.All rights reserved.</p>
+    </div>
+   </div>
+
+    <script>
+        var subAboutlinks = document.getElementsByClassName("subAbout-links");
+        var  subcontents = document.getElementsByClassName("sub-content");
+
+        function opentab(tabName){
+            for(tablink of subAboutlinks){
+                tablink.classList.remove("active-link");
+            }
+            for(subcontent of subcontents ){
+                subcontent.classList.remove("sub-contentEdu");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabName).classList.add("sub-contentEdu")
+        }
+    </script>
+    <script>
+        var sidemen =document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemen.style.right= "0";
+        }
+        function closemenu(){
+            sidemen.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyFaT_z_ZJd6Bt4juHNndaZ5IFuj1XNQPsUKmJn8PLu60QVDJ6PUpYGR42a3QTPiPgQ/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML ="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML= ""
+                },5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
